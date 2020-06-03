@@ -1,0 +1,114 @@
+/* Must-have Part */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+.yellow {
+    background: #E7C32F;
+}
+
+.small {
+    width: 115px;
+    height: 45px;
+}
+
+/* Main CSS */
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 815px;
+}
+
+.marko-top-bar {
+    width: 100%;
+    height: 100px;
+    background: #0F0F0F;
+    display: flex;
+    padding: 28px 263px 27px 150px;
+}
+
+.marko-top-bar div {
+    margin-right: 45px;
+}
+
+.marko-top-bar div:nth-child(1) {
+    margin-right: auto;
+}
+
+.marko-banner-form {
+    position: relative;
+    width: 100%;
+    height: 660px;
+}
+
+.form {
+    width: 313px;
+    height: 249px;
+    background: #0F0F0F;
+    padding: 25px;
+    position: absolute;
+    top: 17px;
+    right: 385px;
+}
+
+.form-element {
+    width: 173px;
+    height: 45px;
+    background: #E7C32F;
+}
+
+.form-row {
+    margin-top: 32px;
+    display: flex;
+}
+
+.form-submit {
+    width: 63px;
+    height: 45px;
+    margin-left: 14px;
+    background: #343434;
+}
+
+.marko-attention-holder {
+    width: 192px;
+    height: 45px;
+    background: #E7C32F;
+    position: absolute;
+    bottom: 0;
+    left: 415px;
+}
+
+.marko-social-networks-bar {
+    width: 100%;
+    height: 55px;
+    background: #E7C32F;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 385px;
+    padding: 54px 423px 54px 393px;
+    background: #121212;
+}
+
+.marko-footer-placeholder{
+    width: 100%;
+    height: 277px;
+    background: #FFFFFF;
+}
